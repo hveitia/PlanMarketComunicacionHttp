@@ -1,0 +1,24 @@
+{
+  "name": "PlanMarketComunicacionHttp",
+  "version": "1.0.0",
+  "description": "Comunicación Http",
+  "main": "index.js",
+  "scripts": {
+    "test": "Mocha",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hveitia/PlanMarketComunicacionHttp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hveitia/PlanMarketComunicacionHttp/issues"
+  },
+  "homepage": "https://github.com/hveitia/PlanMarketComunicacionHttp#readme",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
