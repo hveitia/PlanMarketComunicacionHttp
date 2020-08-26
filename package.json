@@ -1,8 +1,9 @@
 {
-  "name": "PlanMarketComunicacionHttp",
+  "name": "comunicacion-http-plan-market",
   "version": "1.0.0",
   "description": "Comunicación Http",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "test": "Mocha",
     "watch": "tsc -w"

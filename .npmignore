@@ -1,0 +1,7 @@
+node_modules/
+.idea/
+lib/
+.VSCode/
+package-lock.json
+pruebas.js
+.gitignore
