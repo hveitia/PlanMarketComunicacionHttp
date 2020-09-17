@@ -30,5 +30,81 @@ class ComunicacionService {
             return result.data;
         }).catch(error => { return error; });
     }
+    login(offline, usuario, password) {
+        if (offline) {
+            return {
+                codigo: 0,
+                data: {
+                    nombre: 'Lionel Andres Messi',
+                    email: 'lionelmessi@gmail.com',
+                    celular: '0998877665',
+                }
+            };
+        }
+        else {
+            return {
+                codigo: 0,
+                data: {
+                    nombre: 'Lionel Andres Messi',
+                    email: usuario,
+                    celular: '0998877665',
+                }
+            };
+        }
+    }
+    registrarUsuario(offline) {
+        if (offline) {
+            return {
+                codigo: 0,
+                data: {
+                    nombre: 'Lionel Andres Messi',
+                    email: 'lionelmessi@gmail.com',
+                    celular: '0998877665',
+                    identificacion: '12331322112',
+                    tipoIdentificacion: 'cedula'
+                }
+            };
+        }
+    }
+    verificarOtp(offline) {
+        if (offline) {
+            return {
+                codigo: 0,
+                data: {
+                    valido: true,
+                }
+            };
+        }
+    }
+    depositarCheque(offline) {
+        if (offline) {
+            return {
+                codigo: 0,
+                data: {
+                    valido: true,
+                }
+            };
+        }
+    }
+    consultaCheques(offline) {
+        if (offline) {
+            return {
+                codigo: 0,
+                data: {
+                    valido: true,
+                }
+            };
+        }
+    }
+    actualizarDatosUsuario(offline) {
+        if (offline) {
+            return {
+                codigo: 0,
+                data: {
+                    valido: true,
+                }
+            };
+        }
+    }
 }
 exports.ComunicacionService = ComunicacionService;
